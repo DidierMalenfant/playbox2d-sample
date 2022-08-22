@@ -1,0 +1,5 @@
+name=Playbox2D Demo
+author=Dustin Mierau
+description=Quick demonstration of playbox2d.
+bundleID=co.goodmake.playboxdemo
+imagePath=

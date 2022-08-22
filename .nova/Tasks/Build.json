@@ -1,0 +1,20 @@
+{
+  "actions" : {
+    "build" : {
+      "enabled" : true,
+      "script" : "which \/usr\/local\/bin\/arm-none-eabi-gcc\nif [ $? == 0 ]; then\n\tmake\nelse\n\techo \"Error: Building C games for Playdate requires the ARM GCC toolchain.\"\n\texit 1\nfi"
+    },
+    "clean" : {
+      "enabled" : true,
+      "script" : "which \/usr\/local\/bin\/arm-none-eabi-gcc\nif [ $? == 0 ]; then\n\tmake clean\nelse\n\techo \"Error: Building C games for Playdate requires the ARM GCC toolchain.\"\n\texit 1\nfi"
+    },
+    "run" : {
+      "enabled" : true,
+      "script" : "which \/usr\/local\/bin\/arm-none-eabi-gcc\nif [ $? == 0 ]; then\n\tmake\n\topen $PRODUCT\nelse\n\techo \"Error: Building C games for Playdate requires the ARM GCC toolchain.\"\n\texit 1\nfi"
+    }
+  },
+  "environment" : {
+    "PRODUCT" : "playbox2d-sample.pdx"
+  },
+  "openLogOnRun" : "fail"
+}
