@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 20219-present Dustin Mierau
+// SPDX-FileCopyrightText: 2006-present Erin Catto http://www.gphysics.com
 //
 // SPDX-License-Identifier: MIT
 

@@ -10,6 +10,8 @@ You can add it to your **Playdate** project by installing [**toybox.py**](https:
 toybox add DidierMalenfant/playbox2d
 ```
 
+Then you [simply](https://github.com/toyboxpy/toybox.py#using-c-toyboxes) need to add `toyboxes/toybox.mk` to your makefile.
+
 This **toybox** contains **Lua** toys for you to play with.
 
 ---
